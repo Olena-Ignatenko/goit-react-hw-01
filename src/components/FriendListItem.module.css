@@ -1,0 +1,29 @@
+.friend-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #efeaea;
+  padding: 10px;
+}
+
+.friend-item img {
+  width: 100px;
+}
+
+.friend-name {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* стилі для тексту статусу та його кольору */
+.friend-status-online {
+  color: green;
+}
+
+.friend-status-offline {
+  color: red;
+}

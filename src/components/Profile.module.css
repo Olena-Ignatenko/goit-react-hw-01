@@ -1,0 +1,54 @@
+.profile-container {
+  text-align: center;
+  max-width: 350px;
+  padding-top: 20px;
+  border: 2px solid #3b3838;
+  border-radius: 8px;
+  background: #efeaea;
+  margin: 0 auto;
+}
+
+.profile-container img {
+  max-width: 50%;
+  border-radius: 50%;
+  background: #393938;
+}
+
+.profile-container p.name {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.profile-container p.location {
+  font-size: 0.8em;
+}
+
+.stats-list {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background: #c8c4c4;
+}
+
+.stats-list li:not(:last-child) {
+  border-right: 2px solid rgb(70, 69, 69);
+}
+
+.stats-list li {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid rgb(70, 69, 69);
+  width: 100%;
+  padding: 10px 0;
+}
+
+.stats-list span {
+  margin-right: 8px;
+}
+
+/* Додали новий стиль для імені тегу p */
+.profile-container p {
+  margin: 8px 0; /* Запобігає внутрішньому відступу у тегах p */
+}

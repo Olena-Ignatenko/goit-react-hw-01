@@ -1,8 +1,8 @@
 
 /* стилі для виділення рядків таблиці при наведенні курсору */
-.transaction-item:hover {
-  background-color: #f5f5f5;
-}
+/* .transaction-item:hover {
+  background-color: #e7dfdf;
+} */
 
 .transaction-item {
     font-size: 20px;

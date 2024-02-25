@@ -22,7 +22,7 @@
 
 /* Додали стилі для виділення рядків таблиці при наведенні курсору */
 .transaction-history-table tr:nth-child(even) {
-  background-color: #f9f9f9; /* Світлий колір для парних рядків */
+  background-color: #efecec; /* Світлий колір для парних рядків */
 }
 
 .transaction-history-table tr:nth-child(odd) {
@@ -31,5 +31,5 @@
 
 /* Додали стилі для виділення рядків таблиці при наведенні курсору */
 .transaction-history-table tr:hover {
-  background-color: #f5f5f5; /* Колір при наведенні курсору на будь-який рядок */
+  background-color: #fff;
 }
